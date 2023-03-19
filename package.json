@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bunyan": "^1.8.15",
+    "compression": "^1.7.4",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "csv": "^6.2.0",
+    "dotenv": "^16.0.1",
+    "exceljs": "^4.1.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "hpp": "^0.2.3",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.13",
+    "pdfkit-table": "^0.1.86",
+    "pg": "^8.2.1",
+    "sharp": "^0.30.6",
+    "socket.io": "^4.5.2",
+    "toobusy-js": "^0.5.1",
+    "twilio": "^3.76.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
